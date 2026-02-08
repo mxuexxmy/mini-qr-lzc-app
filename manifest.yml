@@ -1,0 +1,19 @@
+lzc-sdk-version: "0.1"
+name: Mini QR
+package: xyz.mxue.miniqr
+version: 0.0.1
+description: ""
+homepage: https://github.com/lyqht/mini-qr
+author: lyqht
+application:
+  subdomain: miniqr
+  background_task: false
+  multi_instance: false
+  gpu_accel: false
+  kvm_accel: false
+  usb_accel: false
+  routes:
+    - /=http://mini-qr.xyz.mxue.miniqr.lzcapp:8080/
+services:
+  mini-qr:
+    image: registry.lazycat.cloud/mxuexxmy/xxmymxue/mini-qr:05e13ea972809bf8

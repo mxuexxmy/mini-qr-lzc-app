@@ -1,0 +1,28 @@
+{
+  "name": "Mini QR",
+  "package": "xyz.mxue.miniqr",
+  "description": "",
+  "homepage": "https://github.com/lyqht/mini-qr",
+  "author": "lyqht",
+  "app_features": [],
+  "subdomain": "miniqr",
+  "version": "0.0.1",
+  "iconPath": "lzc-app-icon.png",
+  "composePath": "docker-compose.yml",
+  "unsupported_platforms": [],
+  "lastRouteType": "from_compose",
+  "port_mappings": {
+    "mini-qr_8081_8080": {
+      "use": true,
+      "type": "http",
+      "path": "/",
+      "targetPath": "/"
+    }
+  },
+  "image_xxmymxue_mini-qr_v0.11.0": {
+    "originalImage": "xxmymxue/mini-qr:v0.11.0",
+    "pushTarget": "lazycat",
+    "newImageName": "registry.lazycat.cloud/mxuexxmy/xxmymxue/mini-qr:05e13ea972809bf8",
+    "timestamp": "2025-03-02T05:51:54.026Z"
+  }
+}
