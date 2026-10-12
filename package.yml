@@ -1,0 +1,18 @@
+package: xyz.mxue.miniqr
+version: 0.33.0
+name: Mini QR
+description: Create and scan customizable QR codes
+author: lyqht
+license: GPL-3.0
+homepage: https://github.com/lyqht/mini-qr
+min_os_version: "1.5.0"
+locales:
+  zh-CN:
+    name: Mini QR
+    description: 生成并扫描可自定义样式的二维码
+  en-US:
+    name: Mini QR
+    description: Create and scan customizable QR codes
+permissions:
+  required: []
+  optional: []

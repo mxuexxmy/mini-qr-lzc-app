@@ -1,6 +1,6 @@
 services:
   mini-qr:
-    image: xxmymxue/mini-qr:v0.11.0
-    container_name: mini-qr
+    build: .
+    image: mini-qr:0.33.0
     ports:
-      - 8081:8080
+      - 8080:8080

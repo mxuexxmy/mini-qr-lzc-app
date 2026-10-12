@@ -1,0 +1,8 @@
+application:
+  subdomain: miniqr
+  multi_instance: false
+  routes:
+    - /=http://mini-qr.xyz.mxue.miniqr.lzcapp:8080/
+services:
+  mini-qr:
+    image: registry.lazycat.cloud/mxuexxmy/lyqht/mini-qr:56b7440145c6cb8e
